@@ -2,7 +2,7 @@
   "mcpServers": {
     "fatemcp-lifajiri": {
       "command": "npx",
-      "args": ["-y", "fatemcp-lifajiri"],
+      "args": ["-y", "mcp-remote", "http://mcp.fatemcp.com/lifajiri/mcp"],
       "env": {}
     }
   }
