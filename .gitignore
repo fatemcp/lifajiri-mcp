@@ -1,9 +1,11 @@
 # ===== 算法保护（绝不公开，禁止上传）=====
 # lib/ 目录包含核心算法（lunar.js / tibetan.js / haircut.js）
 # server/ 目录包含服务端程序（server.js）
+# deploy/ 目录包含服务器部署配置（package.json / systemd / 部署手册）
 # 这些只部署在服务器，禁止推送到 GitHub
 lib/
 server/
+deploy/
 
 # ===== 依赖与环境 =====
 node_modules/
