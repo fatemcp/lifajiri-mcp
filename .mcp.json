@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "fatemcp-lifajiri": {
+      "command": "npx",
+      "args": ["-y", "fatemcp-lifajiri"],
+      "env": {}
+    }
+  }
+}

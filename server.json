@@ -1,0 +1,31 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/server.json",
+  "name": "io.github.fatemcp/lifajiri",
+  "title": "LifaJiri",
+  "description": "Auspicious Haircut Days via Tibetan Calendar, Wenshu Bodhisattva Oracle, and Pengzu Hundred Taboos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fatemcp/lifajiri-mcp.git"
+  },
+  "source": "github",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "fatemcp-lifajiri",
+      "version": "1.0.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio",
+        "packageArguments": []
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamableHttp",
+      "url": "http://mcp.fatemcp.com/lifajiri/mcp"
+    }
+  ]
+}

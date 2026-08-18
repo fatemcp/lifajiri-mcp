@@ -1,0 +1,6 @@
+{
+  "name": "fatemcp-lifajiri",
+  "transport": "streamableHttp",
+  "url": "http://mcp.fatemcp.com/lifajiri/mcp",
+  "description": "FateMCP LifaJiri remote MCP server — Auspicious Haircut Days"
+}

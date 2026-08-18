@@ -1,0 +1,31 @@
+{
+  "name": "fatemcp-lifajiri",
+  "version": "1.0.0",
+  "description": "Remote MCP client for FateMCP LifaJiri — Auspicious Haircut Days via Tibetan Calendar, Wenshu Bodhisattva Oracle, and Pengzu Hundred Taboos",
+  "bin": {
+    "fatemcp-lifajiri": "./bin/connect.js"
+  },
+  "scripts": {
+    "connect": "mcp-remote http://mcp.fatemcp.com/lifajiri/mcp"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "mcp-remote": "^0.1.38"
+  },
+  "keywords": [
+    "mcp",
+    "fatemcp",
+    "haircut",
+    "auspicious-days",
+    "tibetan-calendar",
+    "wenshu",
+    "pengzu",
+    "chinese-metaphysics"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fatemcp/lifajiri-mcp.git"
+  },
+  "homepage": "https://fatemcp.com"
+}
