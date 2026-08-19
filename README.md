@@ -17,7 +17,7 @@
 ### 连接地址
 
 ```
-http://mcp.fatemcp.com/lifajiri/mcp
+https://mcp.fatemcp.com/lifajiri/mcp
 ```
 
 ### MCP Agent 配置
@@ -29,7 +29,7 @@ http://mcp.fatemcp.com/lifajiri/mcp
   "mcpServers": {
     "fatemcp-lifajiri": {
       "type": "streamableHttp",
-      "url": "http://mcp.fatemcp.com/lifajiri/mcp"
+      "url": "https://mcp.fatemcp.com/lifajiri/mcp"
     }
   }
 }
@@ -43,7 +43,7 @@ http://mcp.fatemcp.com/lifajiri/mcp
   "mcpServers": {
     "fatemcp-lifajiri": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "http://mcp.fatemcp.com/lifajiri/mcp"]
+      "args": ["-y", "mcp-remote", "https://mcp.fatemcp.com/lifajiri/mcp"]
     }
   }
 }

@@ -13,7 +13,7 @@ FateMCP LifaJiri（理发吉日）：MCP 服务，综合藏汉历法推算理发
 
 ## 调用方式
 
-配置 MCP 客户端接入 `http://mcp.fatemcp.com/lifajiri/mcp` 后，调用工具：
+配置 MCP 客户端接入 `https://mcp.fatemcp.com/lifajiri/mcp` 后，调用工具：
 
 ### 工具一：`get_haircut_auspicious_days`
 

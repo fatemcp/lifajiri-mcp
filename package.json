@@ -6,7 +6,7 @@
     "fatemcp-lifajiri": "./bin/connect.js"
   },
   "scripts": {
-    "connect": "mcp-remote http://mcp.fatemcp.com/lifajiri/mcp"
+    "connect": "mcp-remote https://mcp.fatemcp.com/lifajiri/mcp"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

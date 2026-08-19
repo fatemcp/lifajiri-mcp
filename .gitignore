@@ -1,0 +1,25 @@
+# ===== 算法保护（绝不公开，禁止上传）=====
+# lib/ 目录包含核心算法（lunar.js / tibetan.js / haircut.js）
+# server/ 目录包含服务端程序（server.js）
+# deploy/ 目录包含服务器部署配置（package.json / systemd / 部署手册）
+# 项目备忘含服务器细节，同样不进 GitHub
+lib/
+server/
+deploy/
+项目备忘.md
+
+# ===== 依赖与环境 =====
+node_modules/
+package-lock.json
+
+# ===== 日志与临时文件 =====
+*.log
+.DS_Store
+*.tmp
+
+# ===== 备份文件（本地调试残留，无需上传）=====
+*.bak
+*.bak.*
+
+# ===== Windows 残留 =====
+*:Zone.Identifier

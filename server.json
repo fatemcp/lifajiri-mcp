@@ -25,7 +25,7 @@
   "remotes": [
     {
       "type": "streamableHttp",
-      "url": "http://mcp.fatemcp.com/lifajiri/mcp"
+      "url": "https://mcp.fatemcp.com/lifajiri/mcp"
     }
   ]
 }
