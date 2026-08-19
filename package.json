@@ -1,6 +1,6 @@
 {
   "name": "fatemcp-lifajiri",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Remote MCP client for FateMCP LifaJiri — Auspicious Haircut Days via Tibetan Calendar, Wenshu Bodhisattva Oracle, and Pengzu Hundred Taboos",
   "bin": {
     "fatemcp-lifajiri": "./bin/connect.js"
